@@ -8,3 +8,4 @@ imgnoise = function(image, noise_type) {
   }
   return(image)
 }
+
