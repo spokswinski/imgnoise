@@ -1,4 +1,4 @@
-salt_and_pepper_noise = function(image, noise_density) {
+salt_and_pepper_noise = function(image, noise_density = 0.05) {
   if (runif(1) > noise_density) {
     return(image)
   }
