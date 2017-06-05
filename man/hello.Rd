@@ -1,12 +1,11 @@
-\name{hello}
-\alias{hello}
-\title{Hello, World!}
-\usage{
-hello()
+\name{imgnoise}
+\alias{imgnoise}
+\title{imgnoise}
+\usage{imgnoise(image, noise_type)
 }
 \description{
-Prints 'Hello, world!'.
+Generates statistical noise that can be gaussian, speckle,salt & pepper, or uniform
 }
 \examples{
-hello()
+imgnoise(matrix(rep(c(1,2),5), nrow = 2), gaussian)
 }
