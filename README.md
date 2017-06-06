@@ -1,4 +1,4 @@
-Inspired by experimental methods described in [a paper](https://arxiv.org/abs/1410.6333) by Yves van Gennip, Prashant Athavale, Jérôme Gilles, and Rustum Choksi, imgnoise seeks to bring methods to R for mathematicians and signal processing researchers to distort images and arrays. It emulates the "imnoise" function in MATLAB, used by researchers to distort images in order to then experimentally test denoising algorithms.
+Inspired by experimental methods described in [a paper](https://arxiv.org/abs/1410.6333) by Yves van Gennip, Prashant Athavale, Jérôme Gilles, and Rustum Choksi, imgnoise seeks to implement a function in R for mathematicians and signal processing researchers to distort images and arrays. It emulates the "imnoise" function in MATLAB, used by researchers to distort images in order to then experimentally test denoising algorithms.
 
 Currently, the four types of noise supported are Gaussian, Salt and Pepper, Speckle, and Uniform Noise.
 
