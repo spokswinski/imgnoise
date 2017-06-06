@@ -10,7 +10,6 @@
 salt_and_pepper_noise = function(image, noise_density = 0.05) {
   try(if(class(image)!="numeric") stop("array contained non-numerics", call. = FALSE))
   try(if(noise_density < 0 | noise_density > 1) stop("noise density must be between 0 and 1", call. = FALSE))
-  try(if(image < 0 | image > 1) stop("for sensible results, image must be encoded as numerics between 0 and 1"), call. = FALSE)
 
   if (runif(1) > noise_density) {
     return(image)
