@@ -2,7 +2,7 @@
 % Please edit documentation in R/salt_and_pepper_noise.R
 \name{salt_and_pepper_noise}
 \alias{salt_and_pepper_noise}
-\title{Take a numeric and, with a specified probability to do so, set it equal to either 0 or 1 with a 50% probability for each option, or otherwise leave it as is.}
+\title{Take a numeric and, with a specified probability to do so, set it equal to either 0 or 1 with a 50 percent probability for each option, or otherwise leave it as is.}
 \usage{
 salt_and_pepper_noise(image, noise_density = 0.05)
 }
@@ -12,7 +12,7 @@ salt_and_pepper_noise(image, noise_density = 0.05)
 \item{noise_density}{The probability with which the function will then set the numeric equal to 0 or 1.}
 }
 \description{
-Take a numeric and, with a specified probability to do so, set it equal to either 0 or 1 with a 50% probability for each option, or otherwise leave it as is.
+Take a numeric and, with a specified probability to do so, set it equal to either 0 or 1 with a 50 percent probability for each option, or otherwise leave it as is.
 }
 \examples{
 salt_and_pepper_noise(0.54, 0.6)

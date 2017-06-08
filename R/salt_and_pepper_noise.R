@@ -1,4 +1,4 @@
-#' Take a numeric and, with a specified probability to do so, set it equal to either 0 or 1 with a 50% probability for each option, or otherwise leave it as is.
+#' Take a numeric and, with a specified probability to do so, set it equal to either 0 or 1 with a 50 percent probability for each option, or otherwise leave it as is.
 #'
 #' @param image A numeric. Should be an element of an array.
 #' @param noise_density The probability with which the function will then set the numeric equal to 0 or 1.

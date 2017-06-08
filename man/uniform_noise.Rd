@@ -4,7 +4,7 @@
 \alias{uniform_noise}
 \title{Take a numeric and add to it a uniformly distributed random number.}
 \usage{
-uniform_noise(image, lower_bound = -1, upper_bound = 1)
+uniform_noise(image, lower_bound = -0.3, upper_bound = 0.3)
 }
 \arguments{
 \item{image}{A numeric. Should be an element of an array.}
