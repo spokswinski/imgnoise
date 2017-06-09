@@ -29,6 +29,7 @@ LogoSaltPepperNoiseDensityPoint1.png is the result, and you can extrapolate thes
 ![](/example-pngs/LogoSaltPepperNoiseDensityPoint1.png)
 
 For reference, the un-noised image:
+
 ![](/example-pngs/Logo.png)
 
 ## Other Examples
