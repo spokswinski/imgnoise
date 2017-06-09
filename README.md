@@ -25,5 +25,4 @@ logo = readPNG(system.file("img", "Rlogo.png", package="png"))
 imgnoise(logo, "gaussian", variance = 0.5)
 ```
 LogoGaussianVarPoint5.png is the result, and you can extrapolate these to the other example-pngs in example-pngs.
-
-
+![](~/imgnoise/example-pngs/LogoGaussianVarPoint5.png)
