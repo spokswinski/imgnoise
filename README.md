@@ -22,7 +22,9 @@ This is a basic example which shows you how to implement gaussian noise.
 library(png)
 logo = readPNG(system.file("img", "Rlogo.png", package="png"))
 ## Applying Noise
-imgnoise(logo, "gaussian", variance = 0.5)
+imgnoise(logo, "salt_and_pepper", noise_density = 0.1)
 ```
-LogoGaussianVarPoint5.png is the result, and you can extrapolate these to the other example-pngs in example-pngs.
-![](/example-pngs/LogoGaussianVarPoint5.png)
+LogoSaltPepperNoiseDensityPoint1.png is the result, and you can extrapolate these to the other example-pngs in example-pngs.
+
+![](/example-pngs/Logo.png)
+![](/example-pngs/LogoSaltPepperNoiseDensityPoint1.png)
