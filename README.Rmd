@@ -1,5 +1,5 @@
 ---
-output: github_document
+output: md_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -23,6 +23,7 @@ You can install imgnoise from github with:
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("rayheberer/imgnoise")
+library(imgnoise)
 ```
 
 ## Example
