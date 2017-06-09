@@ -24,7 +24,7 @@ logo = readPNG(system.file("img", "Rlogo.png", package="png"))
 ## Applying Noise
 imgnoise(logo, "salt_and_pepper", noise_density = 0.1)
 ```
-LogoSaltPepperNoiseDensityPoint1.png is the result, and you can extrapolate these to the other example-pngs in example-pngs.
+LogoSaltPepperNoiseDensityPoint1.png is the result.
 
 ![](/example-pngs/LogoSaltPepperNoiseDensityPoint1.png)
 
