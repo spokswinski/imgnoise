@@ -3,7 +3,7 @@ Type: Package
 Title: Image Noise
 Version: 0.1.0
 Author: Ray, Timothy, Rice
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: Ray Heberer <ray.heberer@gmail.com>
 Description: Provides methods to generate random noise in images or other data stored in arrays.
 License: GPL-3
 Encoding: UTF-8
