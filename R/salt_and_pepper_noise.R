@@ -19,5 +19,5 @@ salt_and_pepper_noise = function(image, noise_density = 0.05) {
     return(0)
   }
 
-  return(1)
+  return(image)
 }
